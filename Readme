@@ -1,1 +1,14 @@
 
+Contains a model that can predict the protein's secondary structure from its Amino-Acid sequence.
+
+Algorithm: [Hidden]
+Client: Contains a react ui.
+JavaServer: Converts the amino acid sequence into numbers(that the ML model can read) and passes it to the model.
+The flask app then uses the saved model to calculate the secondary structure of proteins.
+
+Way to go!
+
+PS: It would take 10 years and a lot of money to predict the structure in labs. 
+Well, anyone who has been there would go for an algorithm that accurately predicts the structure around 87% of the times in less than a second.
+
+Updated Readme Coming Soon.
